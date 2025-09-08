@@ -3,7 +3,6 @@
   justify-content: center;
   height: 100vh;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .firstborn {
@@ -83,10 +82,9 @@ button {
   border-color: hsla(0, 0%, 100%, 0.75);
   cursor: pointer;
 }
+
 @media screen and (max-width: 400px) {
-  .parent {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  body {
+    background-color: blue;
   }
 }
