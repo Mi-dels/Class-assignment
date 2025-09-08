@@ -85,7 +85,7 @@ button {
 @media screen and (max-width: 350px) {
   .parent {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }
 }
