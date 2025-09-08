@@ -82,7 +82,7 @@ button {
   border-color: hsla(0, 0%, 100%, 0.75);
   cursor: pointer;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .parent {
     display: flex;
     flex-direction: row;
